@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B735491D97A671008F4235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735481D97A671008F4235 /* AppDelegate.swift */; };
+		23B7354B1D97A671008F4235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7354A1D97A671008F4235 /* ViewController.swift */; };
+		23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B7354C1D97A671008F4235 /* Assets.xcassets */; };
+		23B735501D97A671008F4235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7354E1D97A671008F4235 /* Main.storyboard */; };
+		23B7355B1D97A671008F4235 /* bingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7355A1D97A671008F4235 /* bingoTests.swift */; };
+		23B735661D97A671008F4235 /* bingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735651D97A671008F4235 /* bingoUITests.swift */; };
+		23B735741D97A6E9008F4235 /* BingoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735731D97A6E9008F4235 /* BingoDataModel.swift */; };
+		23B735761D97A702008F4235 /* BingoDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735751D97A702008F4235 /* BingoDataEntity.swift */; };
+		23B735781D99216C008F4235 /* todo in Resources */ = {isa = PBXBuildFile; fileRef = 23B735771D99216C008F4235 /* todo */; };
+		23B7357A1D9931CF008F4235 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 23B735791D9931CF008F4235 /* readme */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23B735571D97A671008F4235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B7353D1D97A671008F4235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B735441D97A671008F4235;
+			remoteInfo = bingo;
+		};
+		23B735621D97A671008F4235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B7353D1D97A671008F4235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B735441D97A671008F4235;
+			remoteInfo = bingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23B735451D97A671008F4235 /* bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B735481D97A671008F4235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23B7354A1D97A671008F4235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23B7354C1D97A671008F4235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23B7354F1D97A671008F4235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23B735511D97A671008F4235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B735561D97A671008F4235 /* bingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B7355A1D97A671008F4235 /* bingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoTests.swift; sourceTree = "<group>"; };
+		23B7355C1D97A671008F4235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B735611D97A671008F4235 /* bingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B735651D97A671008F4235 /* bingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoUITests.swift; sourceTree = "<group>"; };
+		23B735671D97A671008F4235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B735731D97A6E9008F4235 /* BingoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoDataModel.swift; sourceTree = "<group>"; };
+		23B735751D97A702008F4235 /* BingoDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoDataEntity.swift; sourceTree = "<group>"; };
+		23B735771D99216C008F4235 /* todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = todo; path = bingo/todo; sourceTree = "<group>"; };
+		23B735791D9931CF008F4235 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B735421D97A671008F4235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B735531D97A671008F4235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B7355E1D97A671008F4235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B7353C1D97A671008F4235 = {
+			isa = PBXGroup;
+			children = (
+				23B735771D99216C008F4235 /* todo */,
+				23B735791D9931CF008F4235 /* readme */,
+				23B735471D97A671008F4235 /* bingo */,
+				23B735591D97A671008F4235 /* bingoTests */,
+				23B735641D97A671008F4235 /* bingoUITests */,
+				23B735461D97A671008F4235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B735461D97A671008F4235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B735451D97A671008F4235 /* bingo.app */,
+				23B735561D97A671008F4235 /* bingoTests.xctest */,
+				23B735611D97A671008F4235 /* bingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B735471D97A671008F4235 /* bingo */ = {
+			isa = PBXGroup;
+			children = (
+				23B7354E1D97A671008F4235 /* Main.storyboard */,
+				23B7354A1D97A671008F4235 /* ViewController.swift */,
+				23B735731D97A6E9008F4235 /* BingoDataModel.swift */,
+				23B735751D97A702008F4235 /* BingoDataEntity.swift */,
+				23B735481D97A671008F4235 /* AppDelegate.swift */,
+				23B7354C1D97A671008F4235 /* Assets.xcassets */,
+				23B735511D97A671008F4235 /* Info.plist */,
+			);
+			path = bingo;
+			sourceTree = "<group>";
+		};
+		23B735591D97A671008F4235 /* bingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				23B7355A1D97A671008F4235 /* bingoTests.swift */,
+				23B7355C1D97A671008F4235 /* Info.plist */,
+			);
+			path = bingoTests;
+			sourceTree = "<group>";
+		};
+		23B735641D97A671008F4235 /* bingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23B735651D97A671008F4235 /* bingoUITests.swift */,
+				23B735671D97A671008F4235 /* Info.plist */,
+			);
+			path = bingoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B735441D97A671008F4235 /* bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B7356A1D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingo" */;
+			buildPhases = (
+				23B735411D97A671008F4235 /* Sources */,
+				23B735421D97A671008F4235 /* Frameworks */,
+				23B735431D97A671008F4235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bingo;
+			productName = bingo;
+			productReference = 23B735451D97A671008F4235 /* bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23B735551D97A671008F4235 /* bingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B7356D1D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingoTests" */;
+			buildPhases = (
+				23B735521D97A671008F4235 /* Sources */,
+				23B735531D97A671008F4235 /* Frameworks */,
+				23B735541D97A671008F4235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B735581D97A671008F4235 /* PBXTargetDependency */,
+			);
+			name = bingoTests;
+			productName = bingoTests;
+			productReference = 23B735561D97A671008F4235 /* bingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23B735601D97A671008F4235 /* bingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B735701D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingoUITests" */;
+			buildPhases = (
+				23B7355D1D97A671008F4235 /* Sources */,
+				23B7355E1D97A671008F4235 /* Frameworks */,
+				23B7355F1D97A671008F4235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B735631D97A671008F4235 /* PBXTargetDependency */,
+			);
+			name = bingoUITests;
+			productName = bingoUITests;
+			productReference = 23B735611D97A671008F4235 /* bingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B7353D1D97A671008F4235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daijiro Fukuda";
+				TargetAttributes = {
+					23B735441D97A671008F4235 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					23B735551D97A671008F4235 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 23B735441D97A671008F4235;
+					};
+					23B735601D97A671008F4235 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 23B735441D97A671008F4235;
+					};
+				};
+			};
+			buildConfigurationList = 23B735401D97A671008F4235 /* Build configuration list for PBXProject "bingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B7353C1D97A671008F4235;
+			productRefGroup = 23B735461D97A671008F4235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B735441D97A671008F4235 /* bingo */,
+				23B735551D97A671008F4235 /* bingoTests */,
+				23B735601D97A671008F4235 /* bingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B735431D97A671008F4235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7357A1D9931CF008F4235 /* readme in Resources */,
+				23B735781D99216C008F4235 /* todo in Resources */,
+				23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */,
+				23B735501D97A671008F4235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B735541D97A671008F4235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B7355F1D97A671008F4235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B735411D97A671008F4235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7354B1D97A671008F4235 /* ViewController.swift in Sources */,
+				23B735741D97A6E9008F4235 /* BingoDataModel.swift in Sources */,
+				23B735761D97A702008F4235 /* BingoDataEntity.swift in Sources */,
+				23B735491D97A671008F4235 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B735521D97A671008F4235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7355B1D97A671008F4235 /* bingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B7355D1D97A671008F4235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B735661D97A671008F4235 /* bingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23B735581D97A671008F4235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B735441D97A671008F4235 /* bingo */;
+			targetProxy = 23B735571D97A671008F4235 /* PBXContainerItemProxy */;
+		};
+		23B735631D97A671008F4235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B735441D97A671008F4235 /* bingo */;
+			targetProxy = 23B735621D97A671008F4235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23B7354E1D97A671008F4235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B7354F1D97A671008F4235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B735681D97A671008F4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23B735691D97A671008F4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23B7356B1D97A671008F4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23B7356C1D97A671008F4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23B7356E1D97A671008F4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bingo.app/Contents/MacOS/bingo";
+			};
+			name = Debug;
+		};
+		23B7356F1D97A671008F4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bingo.app/Contents/MacOS/bingo";
+			};
+			name = Release;
+		};
+		23B735711D97A671008F4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bingo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23B735721D97A671008F4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.bingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bingo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B735401D97A671008F4235 /* Build configuration list for PBXProject "bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B735681D97A671008F4235 /* Debug */,
+				23B735691D97A671008F4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B7356A1D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B7356B1D97A671008F4235 /* Debug */,
+				23B7356C1D97A671008F4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23B7356D1D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B7356E1D97A671008F4235 /* Debug */,
+				23B7356F1D97A671008F4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23B735701D97A671008F4235 /* Build configuration list for PBXNativeTarget "bingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B735711D97A671008F4235 /* Debug */,
+				23B735721D97A671008F4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B7353D1D97A671008F4235 /* Project object */;
+}
