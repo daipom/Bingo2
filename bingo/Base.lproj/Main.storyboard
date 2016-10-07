@@ -662,12 +662,12 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="74" y="222"/>
         </scene>
-        <!--View Controller-->
+        <!--Bingo Game-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="bingo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Bingo Game" id="XfG-lQ-9wD" customClass="ViewController" customModule="bingo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -721,6 +721,16 @@
                                 <rect key="frame" x="293" y="87" width="149" height="151"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="qL4-Jq-lQ2"/>
                             </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Auq-hE-OFF">
+                                <rect key="frame" x="26" y="28" width="82" height="32"/>
+                                <buttonCell key="cell" type="push" title="Controll" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zqu-vR-Gpq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="PqK-WX-zhz" kind="show" id="M60-hI-vW9"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -733,6 +743,45 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--Controll Window-->
+        <scene sceneID="j8D-5D-fgN">
+            <objects>
+                <viewController title="Controll Window" id="PqK-WX-zhz" customClass="SubVC" customModule="bingo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="CTj-bm-vNj">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6tR-Ry-PCj">
+                                <rect key="frame" x="165" y="33" width="82" height="32"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5pN-Kb-FrS">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonTapped:" target="PqK-WX-zhz" id="VOu-ny-Y0n"/>
+                                </connections>
+                            </button>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Kt-b4-xGa">
+                                <rect key="frame" x="41" y="37" width="86" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="gWp-h5-gCF" id="FUd-GZ-VaK">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="ej8-dN-S0a">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="gWp-h5-gCF"/>
+                                            <menuItem title="Item 2" id="zuS-YF-C8g"/>
+                                            <menuItem title="Item 3" id="SNd-YZ-Uyt"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="gCq-WE-c4a" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="640"/>
         </scene>
     </scenes>
 </document>

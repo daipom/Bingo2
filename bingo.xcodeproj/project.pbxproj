@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233FEE871DA68A40009CCE63 /* testimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 233FEE861DA68A40009CCE63 /* testimage.png */; };
+		233FEE931DA6C97C009CCE63 /* SubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FEE921DA6C97C009CCE63 /* SubVC.swift */; };
 		23B735491D97A671008F4235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735481D97A671008F4235 /* AppDelegate.swift */; };
 		23B7354B1D97A671008F4235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7354A1D97A671008F4235 /* ViewController.swift */; };
 		23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B7354C1D97A671008F4235 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233FEE861DA68A40009CCE63 /* testimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage.png; sourceTree = SOURCE_ROOT; };
+		233FEE921DA6C97C009CCE63 /* SubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubVC.swift; sourceTree = "<group>"; };
 		23B735451D97A671008F4235 /* bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B735481D97A671008F4235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23B7354A1D97A671008F4235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				23B7354E1D97A671008F4235 /* Main.storyboard */,
+				233FEE921DA6C97C009CCE63 /* SubVC.swift */,
 				23B7354A1D97A671008F4235 /* ViewController.swift */,
 				23B735731D97A6E9008F4235 /* BingoDataModel.swift */,
 				23B735751D97A702008F4235 /* BingoDataEntity.swift */,
 				23B735481D97A671008F4235 /* AppDelegate.swift */,
 				23B7354C1D97A671008F4235 /* Assets.xcassets */,
 				23B735511D97A671008F4235 /* Info.plist */,
+				233FEE861DA68A40009CCE63 /* testimage.png */,
 			);
 			path = bingo;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 				23B7357A1D9931CF008F4235 /* readme in Resources */,
 				23B735781D99216C008F4235 /* todo in Resources */,
 				23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */,
+				233FEE871DA68A40009CCE63 /* testimage.png in Resources */,
 				23B735501D97A671008F4235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 				23B735741D97A6E9008F4235 /* BingoDataModel.swift in Sources */,
 				23B735761D97A702008F4235 /* BingoDataEntity.swift in Sources */,
 				23B735491D97A671008F4235 /* AppDelegate.swift in Sources */,
+				233FEE931DA6C97C009CCE63 /* SubVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
