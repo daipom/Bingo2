@@ -101,14 +101,11 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
     func takeAction() -> Void {
         if timer.valid {
             timer.invalidate()
-            timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.stopRoulette(_:)), userInfo: nil, repeats: true)
+            timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.stopRoulette(_:)), userInfo: nil, repeats: true)
             stopCount = 0
         } else {
             timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.shuffleRoulette(_:)), userInfo: nil, repeats: true)
         }
-        
-        labelMain.stringValue = bingoData.outputNextNum()
-        labelSub.stringValue = bingoData.outputPastNums()
     }
 }
 
