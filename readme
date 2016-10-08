@@ -4,9 +4,9 @@
     ViewController ... ゲーム描画
     SubVC ... ゲームコントロールUIをここに集約
     BingoDataEntity ... ビンゴゲームのデータを担うクラス。ゲームのデータとそれを進行させるメソッドを持たせている。多分システムの主役。
-    BingoDataModel ... なんとなく作ったが使うビジョンが今の所見えない。多分使う必要ない。
+    BingoDataModel ... ゲーム全体の情報に関する処理を担う。
 
 
 環境
-    福田... swift 2.1.1 , Xcode 7.2.1 , OS X Yosemite ver10.10.5
+    福田... swift 3.0 , Xcode 8.0 , macOS Sierra ver10.12
     門脇編集
