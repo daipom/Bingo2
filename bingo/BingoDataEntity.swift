@@ -12,7 +12,7 @@ class BingoDataEntity: NSObject {
     
     /* === メンバ === */
     
-    let maxNum = 10             //ビンゴの最大の数。(最小は1固定)
+    let maxNum = 75             //ビンゴの最大の数。(最小は1固定)
     var bingoNums:[Int] = []    //表示順に数字が入った配列
     var currentIndex = 0        //次表示するインデックス
     
@@ -35,15 +35,15 @@ class BingoDataEntity: NSObject {
         }
     }
     
-    //次の数字(currentIndexの要素値)をString出力, currentIndex更新
-    func outputNextNum() -> String {
-        var result = ""
+    //次の数字(currentIndexの要素値)をInt出力, currentIndex更新
+    func outputNextNum() -> Int {
+        var result : Int
         
         if currentIndex < maxNum {
-            result = bingoNums[currentIndex].description
+            result = bingoNums[currentIndex]
             currentIndex += 1
         } else {
-            result = "終了です"
+            result = 1
         }
         
         return result
