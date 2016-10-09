@@ -87,6 +87,7 @@
 		2372DE341DA9317D00EAB0E1 /* 73.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DDE91DA9317D00EAB0E1 /* 73.png */; };
 		2372DE351DA9317D00EAB0E1 /* 74.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DDEA1DA9317D00EAB0E1 /* 74.png */; };
 		2372DE361DA9317D00EAB0E1 /* 75.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DDEB1DA9317D00EAB0E1 /* 75.png */; };
+		2372DE381DAA134F00EAB0E1 /* BINGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE371DAA134F00EAB0E1 /* BINGO.png */; };
 		23B735491D97A671008F4235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735481D97A671008F4235 /* AppDelegate.swift */; };
 		23B7354B1D97A671008F4235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7354A1D97A671008F4235 /* ViewController.swift */; };
 		23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B7354C1D97A671008F4235 /* Assets.xcassets */; };
@@ -197,6 +198,7 @@
 		2372DDE91DA9317D00EAB0E1 /* 73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 73.png; path = image/num/73.png; sourceTree = SOURCE_ROOT; };
 		2372DDEA1DA9317D00EAB0E1 /* 74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 74.png; path = image/num/74.png; sourceTree = SOURCE_ROOT; };
 		2372DDEB1DA9317D00EAB0E1 /* 75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 75.png; path = image/num/75.png; sourceTree = SOURCE_ROOT; };
+		2372DE371DAA134F00EAB0E1 /* BINGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BINGO.png; path = image/BINGO.png; sourceTree = SOURCE_ROOT; };
 		23B735451D97A671008F4235 /* bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B735481D97A671008F4235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23B7354A1D97A671008F4235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		2372DD9A1DA92E0E00EAB0E1 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				2372DE371DAA134F00EAB0E1 /* BINGO.png */,
 				2372DDA11DA9317D00EAB0E1 /* 1.png */,
 				2372DDA21DA9317D00EAB0E1 /* 2.png */,
 				2372DDA31DA9317D00EAB0E1 /* 3.png */,
@@ -500,6 +503,7 @@
 				2372DDF91DA9317D00EAB0E1 /* 14.png in Resources */,
 				2372DE021DA9317D00EAB0E1 /* 23.png in Resources */,
 				2372DE0E1DA9317D00EAB0E1 /* 35.png in Resources */,
+				2372DE381DAA134F00EAB0E1 /* BINGO.png in Resources */,
 				2372DE1C1DA9317D00EAB0E1 /* 49.png in Resources */,
 				2372DDF11DA9317D00EAB0E1 /* 6.png in Resources */,
 				2372DE211DA9317D00EAB0E1 /* 54.png in Resources */,

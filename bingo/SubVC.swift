@@ -11,6 +11,7 @@ import Cocoa
 protocol ActionDelegate {//ビンゴ進行動作をメインのVCに委譲するためのプロトコル
     func takeAction() -> Void
     func favoriteNum(favorite: Int) -> Void
+    func bingo() -> Void
 }
 
 /* メインVC制御ウィンドウ */
@@ -40,6 +41,10 @@ class SubVC: NSViewController {
     
     @IBAction func favoriteTapped(sender: AnyObject) {
         self.delegate?.favoriteNum(Int(textFieldFavorite.stringValue)!)
+    }
+    
+    @IBAction func bingoTapped(sender: AnyObject) {
+        self.delegate?.bingo()
     }
     
 }

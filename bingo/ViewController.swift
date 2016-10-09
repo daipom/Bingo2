@@ -16,6 +16,7 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
     //var chanceValue = 0
     var stopCount = 0
     var timer : NSTimer!
+    var preFrame : NSRect!
     
     
     /* === メソッド === */
@@ -55,8 +56,87 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
             timer.invalidate()
             let nextNum = bingoData.outputNextNum()
             displayCurrentNum(nextNum)
+            
+            preFrame = imageCurrentNum.frame
+            stopCount = -15
+            self.timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: #selector(ViewController.animation2(_:)), userInfo: nil, repeats: true)
             renewPastNums(nextNum)
         }
+    }
+    
+    //なめらかグーン(timer0.05)
+    func animation1(timer: NSTimer) -> Void {
+        stopCount += 1
+        if stopCount <= 0 {
+            return
+        }
+        if stopCount < 6 {
+            changeSize(CGFloat(10-stopCount), preFrame: preFrame)
+        } else if stopCount < 11 {
+            changeSize(CGFloat(stopCount), preFrame: preFrame)
+        } else if stopCount < 16 {
+            changeSize(CGFloat(20-stopCount), preFrame: preFrame)
+        } else if stopCount < 21 {
+            changeSize(CGFloat(stopCount-10), preFrame: preFrame)
+        } else if stopCount < 26 {
+            changeSize(CGFloat(30-stopCount), preFrame: preFrame)
+        } else if stopCount < 31 {
+            changeSize(CGFloat(stopCount-20), preFrame: preFrame)
+        } else {
+            timer.invalidate()
+        }
+    }
+    
+    //ピカピカピカピカ(timer0.05)
+    func animation2(timer: NSTimer) -> Void {
+        stopCount += 1
+        if stopCount <= 0 {
+            return
+        }
+        if stopCount % 2 == 0 {
+            changeSize(CGFloat(9.75), preFrame: preFrame)
+        } else {
+            changeSize(CGFloat(10), preFrame: preFrame)
+        }
+        if stopCount > 30 {
+            changeSize(CGFloat(10), preFrame: preFrame)
+            timer.invalidate()
+        }
+    }
+    
+    //BINGO用(timer0.05)
+    func animation3(timer: NSTimer) -> Void {
+        stopCount += 1
+        if stopCount <= 0 {
+            return
+        }
+        if stopCount < 18 {
+            imageCurrentNum.hidden = false
+            changeSize(CGFloat(stopCount), preFrame: preFrame)
+        } else if stopCount < 25 {
+            changeSize(CGFloat(34 - stopCount), preFrame: preFrame)
+        } else if stopCount < 32 {
+            changeSize(CGFloat(stopCount - 14), preFrame: preFrame)
+        } else if stopCount < 39 {
+            changeSize(CGFloat(48 - stopCount), preFrame: preFrame)
+        } else if stopCount < 46 {
+            changeSize(CGFloat(stopCount - 28), preFrame: preFrame)
+        } else if stopCount < 53 {
+            changeSize(CGFloat(62 - stopCount), preFrame: preFrame)
+        } else {
+            timer.invalidate()
+        }
+    }
+
+    
+    func changeSize(rate: CGFloat, preFrame: NSRect) -> Void {
+        let width = preFrame.width * rate / 10
+        let heigt = preFrame.height * rate / 10
+        let x = preFrame.origin.x + (preFrame.width - width) / 2
+        let y = preFrame.origin.y + (preFrame.height - heigt) / 2
+        imageCurrentNum.setFrameSize(CGSize(width: width, height: heigt))
+        imageCurrentNum.setFrameOrigin(NSPoint(x:  x, y: y))
+        imageCurrentNum.setNeedsDisplay()
     }
     
     //SubVCを呼びだす直前の動作
@@ -101,6 +181,14 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
                 //labelSub.stringValue = bingoData.outputPastNums()
             }
         }
+    }
+    
+    func bingo() -> Void {
+        imageCurrentNum.hidden = true
+        imageCurrentNum.image = NSImage(named: "BINGO.png")
+        preFrame = imageCurrentNum.frame
+        stopCount = 0
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: #selector(ViewController.animation3(_:)), userInfo: nil, repeats: true)
     }
     
     
