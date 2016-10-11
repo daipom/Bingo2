@@ -672,6 +672,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L17-jh-o5n">
+                                <rect key="frame" x="163" y="55" width="155" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" id="zNR-ia-RKw"/>
+                            </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZNO-kL-JTi">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -701,13 +706,17 @@
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13u-KF-7SK">
                                 <rect key="frame" x="163" y="55" width="155" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="1" id="RNW-lH-eZa"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="0" id="RNW-lH-eZa"/>
                             </imageView>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="buttonControle" destination="Auq-hE-OFF" id="fKj-EX-FTg"/>
+                        <outlet property="imageBackground" destination="ZNO-kL-JTi" id="8pd-b9-p0Z"/>
                         <outlet property="imageCurrentNum" destination="13u-KF-7SK" id="0Yv-bh-4FP"/>
+                        <outlet property="imageEvent" destination="L17-jh-o5n" id="Hc9-jp-gfS"/>
                         <outlet property="imagePastNums" destination="cWv-Mi-tTD" id="TJv-HM-xna"/>
+                        <outlet property="imagePastNumsRed" destination="G4k-dY-xXZ" id="gaL-UP-iA6"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -734,7 +743,7 @@
                                 </connections>
                             </button>
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Kt-b4-xGa">
-                                <rect key="frame" x="41" y="84" width="86" height="26"/>
+                                <rect key="frame" x="41" y="84" width="101" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="gWp-h5-gCF" id="FUd-GZ-VaK">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -748,16 +757,6 @@
                                     </menu>
                                 </popUpButtonCell>
                             </popUpButton>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lul-Gq-oxk">
-                                <rect key="frame" x="43" y="49" width="96" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1DJ-WM-3wt">
-                                    <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="lZz-26-zUV"/>
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w01-oy-SCq">
                                 <rect key="frame" x="176" y="43" width="81" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -780,10 +779,29 @@
                                     <action selector="bingoTapped:" target="PqK-WX-zhz" id="5Jj-wL-NjW"/>
                                 </connections>
                             </button>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QEA-zO-6vV">
+                                <rect key="frame" x="41" y="47" width="101" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="SJ3-b3-nbe" id="OHp-Hu-2xJ">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="Aip-k2-zXq">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="SJ3-b3-nbe"/>
+                                            <menuItem title="Item 2" id="NOs-M1-eam"/>
+                                            <menuItem title="Item 3" id="cNm-4S-yms"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="textFieldFavorite" destination="Lul-Gq-oxk" id="fh2-HX-DX9"/>
+                        <outlet property="buttonBingo" destination="4MF-M3-k71" id="rIN-Qb-yNr"/>
+                        <outlet property="buttonFavorite" destination="w01-oy-SCq" id="i6Y-L8-J84"/>
+                        <outlet property="buttonNext" destination="6tR-Ry-PCj" id="w1Y-vW-i4g"/>
+                        <outlet property="popUpEventKind" destination="2Kt-b4-xGa" id="nQ5-Oh-sa6"/>
+                        <outlet property="popUpNumsRemained" destination="QEA-zO-6vV" id="KCy-bl-Wge"/>
                     </connections>
                 </viewController>
                 <customObject id="gCq-WE-c4a" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -792,7 +810,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="287" height="278.8800048828125"/>
+        <image name="0" width="342.72000122070312" height="344.16000366210938"/>
         <image name="after" width="830.8800048828125" height="401.760009765625"/>
         <image name="background" width="841.5" height="594.75"/>
         <image name="before" width="830.8800048828125" height="401.760009765625"/>

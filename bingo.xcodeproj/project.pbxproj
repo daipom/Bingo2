@@ -88,6 +88,31 @@
 		2372DE351DA9317D00EAB0E1 /* 74.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DDEA1DA9317D00EAB0E1 /* 74.png */; };
 		2372DE361DA9317D00EAB0E1 /* 75.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DDEB1DA9317D00EAB0E1 /* 75.png */; };
 		2372DE381DAA134F00EAB0E1 /* BINGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE371DAA134F00EAB0E1 /* BINGO.png */; };
+		2372DE521DABF0C400EAB0E1 /* 加藤B1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE3E1DABF0C400EAB0E1 /* 加藤B1.jpg */; };
+		2372DE531DABF0C400EAB0E1 /* 加藤B2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE3F1DABF0C400EAB0E1 /* 加藤B2.jpg */; };
+		2372DE541DABF0C400EAB0E1 /* 加藤B3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE401DABF0C400EAB0E1 /* 加藤B3.jpg */; };
+		2372DE551DABF0C400EAB0E1 /* 加藤B4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE411DABF0C400EAB0E1 /* 加藤B4.jpg */; };
+		2372DE561DABF0C400EAB0E1 /* 久鍋B1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE421DABF0C400EAB0E1 /* 久鍋B1.jpg */; };
+		2372DE571DABF0C400EAB0E1 /* 久鍋B2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE431DABF0C400EAB0E1 /* 久鍋B2.jpg */; };
+		2372DE581DABF0C400EAB0E1 /* 久鍋B3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE441DABF0C400EAB0E1 /* 久鍋B3.jpg */; };
+		2372DE591DABF0C400EAB0E1 /* 久鍋B4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE451DABF0C400EAB0E1 /* 久鍋B4.jpg */; };
+		2372DE5A1DABF0C400EAB0E1 /* 高本B1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE461DABF0C400EAB0E1 /* 高本B1.jpg */; };
+		2372DE5B1DABF0C400EAB0E1 /* 高本B2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE471DABF0C400EAB0E1 /* 高本B2.jpg */; };
+		2372DE5C1DABF0C400EAB0E1 /* 高本B3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE481DABF0C400EAB0E1 /* 高本B3.jpg */; };
+		2372DE5D1DABF0C400EAB0E1 /* 高本B4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE491DABF0C400EAB0E1 /* 高本B4.jpg */; };
+		2372DE5E1DABF0C400EAB0E1 /* 寺B1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE4A1DABF0C400EAB0E1 /* 寺B1.jpg */; };
+		2372DE5F1DABF0C400EAB0E1 /* 寺B2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE4B1DABF0C400EAB0E1 /* 寺B2.jpg */; };
+		2372DE601DABF0C400EAB0E1 /* 寺B3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE4C1DABF0C400EAB0E1 /* 寺B3.jpg */; };
+		2372DE611DABF0C400EAB0E1 /* 寺B4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE4D1DABF0C400EAB0E1 /* 寺B4.jpg */; };
+		2372DE631DAC344100EAB0E1 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE621DAC344100EAB0E1 /* 0.png */; };
+		2372DE681DAD1F8600EAB0E1 /* 社長1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE641DAD1F8600EAB0E1 /* 社長1.jpg */; };
+		2372DE691DAD1F8600EAB0E1 /* 社長2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE651DAD1F8600EAB0E1 /* 社長2.jpg */; };
+		2372DE6A1DAD1F8600EAB0E1 /* 社長3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE661DAD1F8600EAB0E1 /* 社長3.jpg */; };
+		2372DE6B1DAD1F8600EAB0E1 /* 社長4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE671DAD1F8600EAB0E1 /* 社長4.jpg */; };
+		2372DE701DAD224700EAB0E1 /* 石田HB1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE6C1DAD224700EAB0E1 /* 石田HB1.jpg */; };
+		2372DE711DAD224700EAB0E1 /* 石田HB2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE6D1DAD224700EAB0E1 /* 石田HB2.jpg */; };
+		2372DE721DAD224700EAB0E1 /* 石田HB3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE6E1DAD224700EAB0E1 /* 石田HB3.jpg */; };
+		2372DE731DAD224700EAB0E1 /* 石田HB4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2372DE6F1DAD224700EAB0E1 /* 石田HB4.jpg */; };
 		23B735491D97A671008F4235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735481D97A671008F4235 /* AppDelegate.swift */; };
 		23B7354B1D97A671008F4235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7354A1D97A671008F4235 /* ViewController.swift */; };
 		23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B7354C1D97A671008F4235 /* Assets.xcassets */; };
@@ -98,6 +123,11 @@
 		23B735761D97A702008F4235 /* BingoDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B735751D97A702008F4235 /* BingoDataEntity.swift */; };
 		23B735781D99216C008F4235 /* todo in Resources */ = {isa = PBXBuildFile; fileRef = 23B735771D99216C008F4235 /* todo */; };
 		23B7357A1D9931CF008F4235 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 23B735791D9931CF008F4235 /* readme */; };
+		23E0DC391DAD25CB007D630B /* FJB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC381DAD25CB007D630B /* FJB.jpg */; };
+		23E0DC3B1DAD2C37007D630B /* 五十嵐顧問.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3A1DAD2C37007D630B /* 五十嵐顧問.jpg */; };
+		23E0DC401DAD462E007D630B /* pi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3D1DAD462D007D630B /* pi.mp3 */; };
+		23E0DC411DAD462E007D630B /* shuffle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3E1DAD462D007D630B /* shuffle.mp3 */; };
+		23E0DC421DAD462E007D630B /* stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3F1DAD462D007D630B /* stop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +229,31 @@
 		2372DDEA1DA9317D00EAB0E1 /* 74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 74.png; path = image/num/74.png; sourceTree = SOURCE_ROOT; };
 		2372DDEB1DA9317D00EAB0E1 /* 75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 75.png; path = image/num/75.png; sourceTree = SOURCE_ROOT; };
 		2372DE371DAA134F00EAB0E1 /* BINGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BINGO.png; path = image/BINGO.png; sourceTree = SOURCE_ROOT; };
+		2372DE3E1DABF0C400EAB0E1 /* 加藤B1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "加藤B1.jpg"; path = "image/event/加藤B1.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE3F1DABF0C400EAB0E1 /* 加藤B2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "加藤B2.jpg"; path = "image/event/加藤B2.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE401DABF0C400EAB0E1 /* 加藤B3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "加藤B3.jpg"; path = "image/event/加藤B3.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE411DABF0C400EAB0E1 /* 加藤B4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "加藤B4.jpg"; path = "image/event/加藤B4.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE421DABF0C400EAB0E1 /* 久鍋B1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "久鍋B1.jpg"; path = "image/event/久鍋B1.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE431DABF0C400EAB0E1 /* 久鍋B2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "久鍋B2.jpg"; path = "image/event/久鍋B2.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE441DABF0C400EAB0E1 /* 久鍋B3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "久鍋B3.jpg"; path = "image/event/久鍋B3.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE451DABF0C400EAB0E1 /* 久鍋B4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "久鍋B4.jpg"; path = "image/event/久鍋B4.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE461DABF0C400EAB0E1 /* 高本B1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "高本B1.jpg"; path = "image/event/高本B1.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE471DABF0C400EAB0E1 /* 高本B2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "高本B2.jpg"; path = "image/event/高本B2.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE481DABF0C400EAB0E1 /* 高本B3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "高本B3.jpg"; path = "image/event/高本B3.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE491DABF0C400EAB0E1 /* 高本B4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "高本B4.jpg"; path = "image/event/高本B4.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE4A1DABF0C400EAB0E1 /* 寺B1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "寺B1.jpg"; path = "image/event/寺B1.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE4B1DABF0C400EAB0E1 /* 寺B2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "寺B2.jpg"; path = "image/event/寺B2.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE4C1DABF0C400EAB0E1 /* 寺B3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "寺B3.jpg"; path = "image/event/寺B3.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE4D1DABF0C400EAB0E1 /* 寺B4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "寺B4.jpg"; path = "image/event/寺B4.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE621DAC344100EAB0E1 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = image/0.png; sourceTree = SOURCE_ROOT; };
+		2372DE641DAD1F8600EAB0E1 /* 社長1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "社長1.jpg"; path = "image/event/社長1.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE651DAD1F8600EAB0E1 /* 社長2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "社長2.jpg"; path = "image/event/社長2.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE661DAD1F8600EAB0E1 /* 社長3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "社長3.jpg"; path = "image/event/社長3.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE671DAD1F8600EAB0E1 /* 社長4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "社長4.jpg"; path = "image/event/社長4.jpg"; sourceTree = SOURCE_ROOT; };
+		2372DE6C1DAD224700EAB0E1 /* 石田HB1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "石田HB1.jpg"; path = "../image/event/石田HB1.jpg"; sourceTree = "<group>"; };
+		2372DE6D1DAD224700EAB0E1 /* 石田HB2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "石田HB2.jpg"; path = "../image/event/石田HB2.jpg"; sourceTree = "<group>"; };
+		2372DE6E1DAD224700EAB0E1 /* 石田HB3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "石田HB3.jpg"; path = "../image/event/石田HB3.jpg"; sourceTree = "<group>"; };
+		2372DE6F1DAD224700EAB0E1 /* 石田HB4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "石田HB4.jpg"; path = "../image/event/石田HB4.jpg"; sourceTree = "<group>"; };
 		23B735451D97A671008F4235 /* bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B735481D97A671008F4235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23B7354A1D97A671008F4235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +270,11 @@
 		23B735751D97A702008F4235 /* BingoDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoDataEntity.swift; sourceTree = "<group>"; };
 		23B735771D99216C008F4235 /* todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = todo; path = bingo/todo; sourceTree = "<group>"; };
 		23B735791D9931CF008F4235 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		23E0DC381DAD25CB007D630B /* FJB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FJB.jpg; path = image/event/FJB.jpg; sourceTree = SOURCE_ROOT; };
+		23E0DC3A1DAD2C37007D630B /* 五十嵐顧問.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "五十嵐顧問.jpg"; path = "image/event/五十嵐顧問.jpg"; sourceTree = SOURCE_ROOT; };
+		23E0DC3D1DAD462D007D630B /* pi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pi.mp3; path = sound/pi.mp3; sourceTree = SOURCE_ROOT; };
+		23E0DC3E1DAD462D007D630B /* shuffle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shuffle.mp3; path = sound/shuffle.mp3; sourceTree = SOURCE_ROOT; };
+		23E0DC3F1DAD462D007D630B /* stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stop.mp3; path = sound/stop.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +305,7 @@
 		2372DD9A1DA92E0E00EAB0E1 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				2372DE621DAC344100EAB0E1 /* 0.png */,
 				2372DE371DAA134F00EAB0E1 /* BINGO.png */,
 				2372DDA11DA9317D00EAB0E1 /* 1.png */,
 				2372DDA21DA9317D00EAB0E1 /* 2.png */,
@@ -328,6 +389,39 @@
 			name = image;
 			sourceTree = "<group>";
 		};
+		2372DE391DABF0A700EAB0E1 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				23E0DC3A1DAD2C37007D630B /* 五十嵐顧問.jpg */,
+				23E0DC381DAD25CB007D630B /* FJB.jpg */,
+				2372DE6C1DAD224700EAB0E1 /* 石田HB1.jpg */,
+				2372DE6D1DAD224700EAB0E1 /* 石田HB2.jpg */,
+				2372DE6E1DAD224700EAB0E1 /* 石田HB3.jpg */,
+				2372DE6F1DAD224700EAB0E1 /* 石田HB4.jpg */,
+				2372DE641DAD1F8600EAB0E1 /* 社長1.jpg */,
+				2372DE651DAD1F8600EAB0E1 /* 社長2.jpg */,
+				2372DE661DAD1F8600EAB0E1 /* 社長3.jpg */,
+				2372DE671DAD1F8600EAB0E1 /* 社長4.jpg */,
+				2372DE3E1DABF0C400EAB0E1 /* 加藤B1.jpg */,
+				2372DE3F1DABF0C400EAB0E1 /* 加藤B2.jpg */,
+				2372DE401DABF0C400EAB0E1 /* 加藤B3.jpg */,
+				2372DE411DABF0C400EAB0E1 /* 加藤B4.jpg */,
+				2372DE421DABF0C400EAB0E1 /* 久鍋B1.jpg */,
+				2372DE431DABF0C400EAB0E1 /* 久鍋B2.jpg */,
+				2372DE441DABF0C400EAB0E1 /* 久鍋B3.jpg */,
+				2372DE451DABF0C400EAB0E1 /* 久鍋B4.jpg */,
+				2372DE461DABF0C400EAB0E1 /* 高本B1.jpg */,
+				2372DE471DABF0C400EAB0E1 /* 高本B2.jpg */,
+				2372DE481DABF0C400EAB0E1 /* 高本B3.jpg */,
+				2372DE491DABF0C400EAB0E1 /* 高本B4.jpg */,
+				2372DE4A1DABF0C400EAB0E1 /* 寺B1.jpg */,
+				2372DE4B1DABF0C400EAB0E1 /* 寺B2.jpg */,
+				2372DE4C1DABF0C400EAB0E1 /* 寺B3.jpg */,
+				2372DE4D1DABF0C400EAB0E1 /* 寺B4.jpg */,
+			);
+			name = event;
+			sourceTree = "<group>";
+		};
 		23B7353C1D97A671008F4235 = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +455,8 @@
 				23B735481D97A671008F4235 /* AppDelegate.swift */,
 				23B7354C1D97A671008F4235 /* Assets.xcassets */,
 				23B735511D97A671008F4235 /* Info.plist */,
+				23E0DC3C1DAD4615007D630B /* sound */,
+				2372DE391DABF0A700EAB0E1 /* event */,
 				2372DD9A1DA92E0E00EAB0E1 /* image */,
 				233FEE861DA68A40009CCE63 /* testimage.png */,
 			);
@@ -383,6 +479,16 @@
 				23B735671D97A671008F4235 /* Info.plist */,
 			);
 			path = bingoUITests;
+			sourceTree = "<group>";
+		};
+		23E0DC3C1DAD4615007D630B /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				23E0DC3D1DAD462D007D630B /* pi.mp3 */,
+				23E0DC3E1DAD462D007D630B /* shuffle.mp3 */,
+				23E0DC3F1DAD462D007D630B /* stop.mp3 */,
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,13 +598,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2372DE521DABF0C400EAB0E1 /* 加藤B1.jpg in Resources */,
+				2372DE691DAD1F8600EAB0E1 /* 社長2.jpg in Resources */,
 				2372DE241DA9317D00EAB0E1 /* 57.png in Resources */,
 				2372DE0A1DA9317D00EAB0E1 /* 31.png in Resources */,
+				2372DE731DAD224700EAB0E1 /* 石田HB4.jpg in Resources */,
 				2372DE061DA9317D00EAB0E1 /* 27.png in Resources */,
 				2372DE2B1DA9317D00EAB0E1 /* 64.png in Resources */,
 				2372DE301DA9317D00EAB0E1 /* 69.png in Resources */,
 				2372DDFD1DA9317D00EAB0E1 /* 18.png in Resources */,
+				2372DE5D1DABF0C400EAB0E1 /* 高本B4.jpg in Resources */,
 				2372DDF71DA9317D00EAB0E1 /* 12.png in Resources */,
+				23E0DC411DAD462E007D630B /* shuffle.mp3 in Resources */,
 				2372DDF31DA9317D00EAB0E1 /* 8.png in Resources */,
 				2372DDF91DA9317D00EAB0E1 /* 14.png in Resources */,
 				2372DE021DA9317D00EAB0E1 /* 23.png in Resources */,
@@ -508,22 +619,29 @@
 				2372DDF11DA9317D00EAB0E1 /* 6.png in Resources */,
 				2372DE211DA9317D00EAB0E1 /* 54.png in Resources */,
 				2372DDEF1DA9317D00EAB0E1 /* 4.png in Resources */,
+				2372DE5E1DABF0C400EAB0E1 /* 寺B1.jpg in Resources */,
 				2372DE181DA9317D00EAB0E1 /* 45.png in Resources */,
 				2372DE191DA9317D00EAB0E1 /* 46.png in Resources */,
 				2372DE091DA9317D00EAB0E1 /* 30.png in Resources */,
 				2372DE001DA9317D00EAB0E1 /* 21.png in Resources */,
 				2372DE111DA9317D00EAB0E1 /* 38.png in Resources */,
 				2372DE2C1DA9317D00EAB0E1 /* 65.png in Resources */,
+				2372DE5C1DABF0C400EAB0E1 /* 高本B3.jpg in Resources */,
+				2372DE6A1DAD1F8600EAB0E1 /* 社長3.jpg in Resources */,
 				2372DE171DA9317D00EAB0E1 /* 44.png in Resources */,
 				2372DE121DA9317D00EAB0E1 /* 39.png in Resources */,
 				2372DE161DA9317D00EAB0E1 /* 43.png in Resources */,
+				23E0DC391DAD25CB007D630B /* FJB.jpg in Resources */,
 				2372DE2D1DA9317D00EAB0E1 /* 66.png in Resources */,
 				2372DE281DA9317D00EAB0E1 /* 61.png in Resources */,
 				2372DE341DA9317D00EAB0E1 /* 73.png in Resources */,
 				2372DE311DA9317D00EAB0E1 /* 70.png in Resources */,
 				2372DDFC1DA9317D00EAB0E1 /* 17.png in Resources */,
 				2372DDFF1DA9317D00EAB0E1 /* 20.png in Resources */,
+				2372DE611DABF0C400EAB0E1 /* 寺B4.jpg in Resources */,
+				2372DE711DAD224700EAB0E1 /* 石田HB2.jpg in Resources */,
 				2372DE2F1DA9317D00EAB0E1 /* 68.png in Resources */,
+				2372DE681DAD1F8600EAB0E1 /* 社長1.jpg in Resources */,
 				2372DE141DA9317D00EAB0E1 /* 41.png in Resources */,
 				2372DE291DA9317D00EAB0E1 /* 62.png in Resources */,
 				2372DE361DA9317D00EAB0E1 /* 75.png in Resources */,
@@ -531,6 +649,8 @@
 				2372DE2E1DA9317D00EAB0E1 /* 67.png in Resources */,
 				2372DDEE1DA9317D00EAB0E1 /* 3.png in Resources */,
 				2372DE101DA9317D00EAB0E1 /* 37.png in Resources */,
+				2372DE721DAD224700EAB0E1 /* 石田HB3.jpg in Resources */,
+				23E0DC3B1DAD2C37007D630B /* 五十嵐顧問.jpg in Resources */,
 				2372DE051DA9317D00EAB0E1 /* 26.png in Resources */,
 				2372DDFA1DA9317D00EAB0E1 /* 15.png in Resources */,
 				2372DE1D1DA9317D00EAB0E1 /* 50.png in Resources */,
@@ -540,6 +660,7 @@
 				2372DDED1DA9317D00EAB0E1 /* 2.png in Resources */,
 				23B7357A1D9931CF008F4235 /* readme in Resources */,
 				2372DE071DA9317D00EAB0E1 /* 28.png in Resources */,
+				2372DE601DABF0C400EAB0E1 /* 寺B3.jpg in Resources */,
 				2372DDF61DA9317D00EAB0E1 /* 11.png in Resources */,
 				2372DD991DA9294C00EAB0E1 /* background.png in Resources */,
 				2372DE231DA9317D00EAB0E1 /* 56.png in Resources */,
@@ -548,25 +669,39 @@
 				2372DE131DA9317D00EAB0E1 /* 40.png in Resources */,
 				2372DE331DA9317D00EAB0E1 /* 72.png in Resources */,
 				2372DD9D1DA92E9800EAB0E1 /* after.png in Resources */,
+				2372DE631DAC344100EAB0E1 /* 0.png in Resources */,
+				2372DE5B1DABF0C400EAB0E1 /* 高本B2.jpg in Resources */,
+				2372DE551DABF0C400EAB0E1 /* 加藤B4.jpg in Resources */,
+				23E0DC421DAD462E007D630B /* stop.mp3 in Resources */,
 				23B735781D99216C008F4235 /* todo in Resources */,
 				2372DE1B1DA9317D00EAB0E1 /* 48.png in Resources */,
 				2372DE1F1DA9317D00EAB0E1 /* 52.png in Resources */,
+				2372DE5A1DABF0C400EAB0E1 /* 高本B1.jpg in Resources */,
 				23B7354D1D97A671008F4235 /* Assets.xcassets in Resources */,
 				233FEE871DA68A40009CCE63 /* testimage.png in Resources */,
+				2372DE571DABF0C400EAB0E1 /* 久鍋B2.jpg in Resources */,
 				2372DDF51DA9317D00EAB0E1 /* 10.png in Resources */,
 				2372DE0B1DA9317D00EAB0E1 /* 32.png in Resources */,
 				2372DDF21DA9317D00EAB0E1 /* 7.png in Resources */,
 				2372DE011DA9317D00EAB0E1 /* 22.png in Resources */,
 				2372DE271DA9317D00EAB0E1 /* 60.png in Resources */,
+				2372DE561DABF0C400EAB0E1 /* 久鍋B1.jpg in Resources */,
 				2372DE081DA9317D00EAB0E1 /* 29.png in Resources */,
 				2372DDFE1DA9317D00EAB0E1 /* 19.png in Resources */,
+				2372DE531DABF0C400EAB0E1 /* 加藤B2.jpg in Resources */,
 				2372DE251DA9317D00EAB0E1 /* 58.png in Resources */,
 				2372DE1A1DA9317D00EAB0E1 /* 47.png in Resources */,
 				2372DE0C1DA9317D00EAB0E1 /* 33.png in Resources */,
 				2372DE221DA9317D00EAB0E1 /* 55.png in Resources */,
+				23E0DC401DAD462E007D630B /* pi.mp3 in Resources */,
 				2372DE321DA9317D00EAB0E1 /* 71.png in Resources */,
+				2372DE541DABF0C400EAB0E1 /* 加藤B3.jpg in Resources */,
+				2372DE701DAD224700EAB0E1 /* 石田HB1.jpg in Resources */,
 				2372DE0D1DA9317D00EAB0E1 /* 34.png in Resources */,
 				2372DE0F1DA9317D00EAB0E1 /* 36.png in Resources */,
+				2372DE5F1DABF0C400EAB0E1 /* 寺B2.jpg in Resources */,
+				2372DE581DABF0C400EAB0E1 /* 久鍋B3.jpg in Resources */,
+				2372DE6B1DAD1F8600EAB0E1 /* 社長4.jpg in Resources */,
 				2372DDF01DA9317D00EAB0E1 /* 5.png in Resources */,
 				2372DE151DA9317D00EAB0E1 /* 42.png in Resources */,
 				2372DE201DA9317D00EAB0E1 /* 53.png in Resources */,
@@ -574,6 +709,7 @@
 				2372DDF81DA9317D00EAB0E1 /* 13.png in Resources */,
 				2372DE1E1DA9317D00EAB0E1 /* 51.png in Resources */,
 				2372DE2A1DA9317D00EAB0E1 /* 63.png in Resources */,
+				2372DE591DABF0C400EAB0E1 /* 久鍋B4.jpg in Resources */,
 				2372DE041DA9317D00EAB0E1 /* 25.png in Resources */,
 				2372DE031DA9317D00EAB0E1 /* 24.png in Resources */,
 			);

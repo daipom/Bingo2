@@ -10,3 +10,14 @@
 環境
     福田... swift 3.0 , Xcode 8.0 , macOS Sierra ver10.12
     門脇編集
+
+フロー
+    Nextボタン -> ShuffleRoulette -> Nextボタン -> StopRoulette
+
+    StopRoulette
+        ->default
+            通常処理 animation2
+        ->else
+            イベント処理 -> animation4(写真全画面) -> favoriteボタン -> animation5(元に戻って通常処理) -> animation2
+
+    BINGOボタン -> animation3 -> Nextボタン

@@ -15,6 +15,9 @@ class BingoDataEntity: NSObject {
     let maxNum = 75             //ビンゴの最大の数。(最小は1固定)
     var bingoNums:[Int] = []    //表示順に数字が入った配列
     var currentIndex = 0        //次表示するインデックス
+    var eventKind = 0
+    var eventName:[String] = ["default", "社長", "石田HB", "加藤B", "久鍋B", "高本B", "寺B", "FJB", "五十嵐顧問"]
+    var subVC:SubVC!
     
     
     /* === メソッド === */
@@ -35,6 +38,15 @@ class BingoDataEntity: NSObject {
         }
     }
     
+    //次の処理がイベントかどうか
+    func isNextEvent() -> Bool {
+        if eventKind == 0 {
+            return false
+        } else {
+            return true
+        }
+    }
+    
     //次の数字(currentIndexの要素値)をInt出力, currentIndex更新
     func outputNextNum() -> Int {
         var result : Int
@@ -42,8 +54,34 @@ class BingoDataEntity: NSObject {
         if currentIndex < maxNum {
             result = bingoNums[currentIndex]
             currentIndex += 1
+            //コントロールのfavorite候補数字更新
+            subVC.popUpNumsRemained.removeAllItems()
+            subVC.popUpNumsRemained.addItemsWithTitles(outputRemainNums())
         } else {
-            result = 1
+            result = 0
+        }
+        
+        return result
+    }
+    
+    //残りの数字をString配列出力(popupItem用)
+    func outputRemainNums() -> [String] {
+        var result : [String] = []
+        
+        for num in 1...75 {
+            var isRemained = true
+            if currentIndex > 0 {
+                for index in 0...currentIndex-1 {
+                    if num == bingoNums[index] {
+                        isRemained = false
+                        break
+                    }
+                }
+            }
+            
+            if isRemained {
+                result.append(num.description)
+            }
         }
         
         return result

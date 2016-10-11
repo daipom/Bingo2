@@ -19,6 +19,14 @@ class BingoDataModel: NSObject {
     
     /* === クラスメソッド === */
     
+    //α値のみ変更する
+    static func setAlpha(bmap: NSBitmapImageRep, x: Int, y: Int, alpha: CGFloat) -> Void {
+        let red =  bmap.colorAtX(x, y: y)?.redComponent
+        let green = bmap.colorAtX(x, y: y)?.greenComponent
+        let blue = bmap.colorAtX(x, y: y)?.blueComponent
+        bmap.setColor(NSColor.init(calibratedRed: red!, green: green!, blue: blue!, alpha: alpha), atX: x, y:y)
+    }
+    
     //数字が履歴表のどこの座標かを計算し、タプルで返す
     static func getPlace(num: Int) -> (startX: Int, startY: Int, endX: Int, endY: Int) {
         var line:Int = 0
