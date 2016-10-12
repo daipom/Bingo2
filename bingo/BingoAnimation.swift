@@ -3,7 +3,7 @@
 //  bingo
 //
 //  Created by Daijiro Fukuda on 2016/10/12.
-//  Copyright © 2016年 Daijiro Fukuda. All rights reserved.
+//  Copyright © 2016年 Hiroshi Kadowaki and Daijiro Fukuda. All rights reserved.
 //
 
 import Cocoa
@@ -201,19 +201,19 @@ class BingoAnimation: NSObject {
         if stopCount <= 0 {
             return
         }
-        if stopCount < 18 {
+        if stopCount < 25 {
             mainVC.imageCurrentNum.hidden = false
             AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(stopCount), preFrame: preFrame)
-        } else if stopCount < 25 {
-            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(34 - stopCount), preFrame: preFrame)
-        } else if stopCount < 32 {
-            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(stopCount - 14), preFrame: preFrame)
         } else if stopCount < 39 {
             AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(48 - stopCount), preFrame: preFrame)
-        } else if stopCount < 46 {
-            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(stopCount - 28), preFrame: preFrame)
         } else if stopCount < 53 {
-            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(62 - stopCount), preFrame: preFrame)
+            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(stopCount - 28), preFrame: preFrame)
+        } else if stopCount < 67 {
+            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(76 - stopCount), preFrame: preFrame)
+        } else if stopCount < 81 {
+            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(stopCount - 56), preFrame: preFrame)
+        } else if stopCount < 95 {
+            AnimationSubFunc.changeSize(mainVC.imageCurrentNum, rate: CGFloat(104 - stopCount), preFrame: preFrame)
         } else {
             timer.invalidate()
             //UI制御
@@ -221,7 +221,7 @@ class BingoAnimation: NSObject {
             mainVC.subVC.buttonBingo.enabled = true
             mainVC.subVC.popUpEventKind.enabled = true
             mainVC.subVC.popUpNumsRemained.enabled = true
-        }
+        }        
     }
     
     //Eventイメージ拡大　favoriteボタンまでこのまま
