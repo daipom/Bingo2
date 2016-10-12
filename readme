@@ -22,3 +22,5 @@
             イベント処理 -> animation4(写真全画面) -> favoriteボタン -> animation5(元に戻って通常処理) -> animation2
 
     BINGOボタン -> animation3 -> Nextボタン
+
+    Loadボタン...スタート時のみ押せる。前回アプリ終了時の状態をロードする。
