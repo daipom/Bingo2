@@ -128,6 +128,7 @@
 		23E0DC401DAD462E007D630B /* pi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3D1DAD462D007D630B /* pi.mp3 */; };
 		23E0DC411DAD462E007D630B /* shuffle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3E1DAD462D007D630B /* shuffle.mp3 */; };
 		23E0DC421DAD462E007D630B /* stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC3F1DAD462D007D630B /* stop.mp3 */; };
+		23E0DC441DAE06BC007D630B /* bingo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC431DAE06BB007D630B /* bingo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -275,6 +276,7 @@
 		23E0DC3D1DAD462D007D630B /* pi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pi.mp3; path = sound/pi.mp3; sourceTree = SOURCE_ROOT; };
 		23E0DC3E1DAD462D007D630B /* shuffle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shuffle.mp3; path = sound/shuffle.mp3; sourceTree = SOURCE_ROOT; };
 		23E0DC3F1DAD462D007D630B /* stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stop.mp3; path = sound/stop.mp3; sourceTree = SOURCE_ROOT; };
+		23E0DC431DAE06BB007D630B /* bingo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bingo.mp3; path = sound/bingo.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,6 +486,7 @@
 		23E0DC3C1DAD4615007D630B /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				23E0DC431DAE06BB007D630B /* bingo.mp3 */,
 				23E0DC3D1DAD462D007D630B /* pi.mp3 */,
 				23E0DC3E1DAD462D007D630B /* shuffle.mp3 */,
 				23E0DC3F1DAD462D007D630B /* stop.mp3 */,
@@ -624,6 +627,7 @@
 				2372DE191DA9317D00EAB0E1 /* 46.png in Resources */,
 				2372DE091DA9317D00EAB0E1 /* 30.png in Resources */,
 				2372DE001DA9317D00EAB0E1 /* 21.png in Resources */,
+				23E0DC441DAE06BC007D630B /* bingo.mp3 in Resources */,
 				2372DE111DA9317D00EAB0E1 /* 38.png in Resources */,
 				2372DE2C1DA9317D00EAB0E1 /* 65.png in Resources */,
 				2372DE5C1DABF0C400EAB0E1 /* 高本B3.jpg in Resources */,

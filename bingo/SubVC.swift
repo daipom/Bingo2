@@ -34,6 +34,7 @@ class SubVC: NSViewController {
             popUpNumsRemained.addItemWithTitle(num.description)
         }
         buttonFavorite.enabled = false
+        buttonBingo.enabled = false
     }
     
     

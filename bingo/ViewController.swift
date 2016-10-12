@@ -18,6 +18,8 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
     var timer : NSTimer!
     var preFrame : NSRect!  //アニメーションの時に、イメージの元の状態を記憶しておくのに用いる
     var subVC : SubVC!  //コントロールウィンドウの制御オブジェクトへアクセスするため
+    var openingTimer: NSTimer!  //オープニング時アニメーション用タイマー
+    var currentAngle: CGFloat = 0  //回転アニメーション用に現在の回転角を保存
     
     /* === メソッド === */
     
@@ -47,6 +49,9 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
         }
         imagePastNums.image = NSImage(data: (bmap?.TIFFRepresentation)!)
         imagePastNumsRed.image = NSImage(data: (bmap2?.TIFFRepresentation)!)
+        
+        /*オープニングアニメーション*/
+        openingTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.animationOpening(_:)), userInfo: nil, repeats: true)
     }
 
     override var representedObject: AnyObject? {
@@ -180,6 +185,16 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
         
         imageCurrentNum.image = NSImage(data: (bmap?.TIFFRepresentation)!)
         imageBackground.image = NSImage(data: (bmap2?.TIFFRepresentation)!)
+    }
+    
+    //currentImage回転(オープニングアニメーション)
+    func animationOpening(timer: NSTimer) -> Void {
+        imageCurrentNum.rotateByAngle(10)
+        imageCurrentNum.setNeedsDisplay()
+        currentAngle += 10
+        if currentAngle > 360 {
+            currentAngle -= 360
+        }
     }
     
     //なめらかグーン(未使用)
@@ -373,11 +388,18 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
     /* === デリゲートメソッド: ActionDelegate === */
     //ビンゴ進行処理
     func takeAction(kind: Int) -> Void {
+        //オープニング脱却処理
+        if openingTimer.valid {
+            openingTimer.invalidate()
+            imageCurrentNum.rotateByAngle(-currentAngle)
+            subVC.buttonBingo.enabled = true
+        }
+        //メイン処理
         if timer.valid {
             subVC.buttonNext.enabled = false
             bingoData.eventKind = kind
             timer.invalidate()
-            if bingoData.isNextEvent() {
+            if bingoData.isNextEvent() {//イベント時前処理
                 imageEvent.image = imageCurrentNum.image  //一瞬窓が透明になる際のカモフラージュ
                 eventWindow(true)   //処理に時間がかかるためtimerがスタートする前に処理
             }
@@ -411,6 +433,8 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
             preFrame = imageCurrentNum.frame
             stopCount = 0
             timer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: #selector(ViewController.animation3(_:)), userInfo: nil, repeats: true)
+            //音
+            ringShuffleSound("bingo")
             //UI制御
             subVC.buttonNext.enabled = false
             subVC.buttonBingo.enabled = false
