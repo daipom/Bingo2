@@ -12,6 +12,7 @@ protocol ActionDelegate {//ビンゴ進行動作をメインのVCに委譲する
     func takeAction(kind: Int) -> Void
     func favoriteNum(favorite: Int) -> Void
     func bingo() -> Void
+    func loadPreData() -> Void
 }
 
 /* メインVC制御ウィンドウ */
@@ -49,6 +50,8 @@ class SubVC: NSViewController {
     
     @IBOutlet weak var buttonBingo: NSButton!
     
+    @IBOutlet weak var buttonLoad: NSButton!
+    
     //ボタン:ビンゴ進行
     @IBAction func buttonTapped(sender: AnyObject) {
         self.delegate?.takeAction(popUpEventKind.indexOfSelectedItem)
@@ -62,4 +65,7 @@ class SubVC: NSViewController {
         self.delegate?.bingo()
     }
     
+    @IBAction func loadTapped(sender: AnyObject) {
+        self.delegate?.loadPreData()
+    }
 }

@@ -96,6 +96,9 @@ class BingoAnimation: NSObject {
         
         //デン！
         AnimationSubFunc.ringShuffleSound("stop")
+        
+        //データ保存
+        mainVC.bingoData.saveData()
     }
     
     //イベント時窓切り抜き

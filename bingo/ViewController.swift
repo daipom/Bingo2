@@ -98,6 +98,7 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
             bingoAnime.openingTimer.invalidate()
             imageCurrentNum.rotateByAngle(-bingoAnime.currentAngle)
             subVC.buttonBingo.enabled = true
+            subVC.buttonLoad.enabled = false
         }
         //メイン処理
         if bingoAnime.timer.valid {
@@ -147,6 +148,14 @@ class ViewController: NSViewController, ActionDelegate {//SubVCのためにActio
             subVC.buttonBingo.enabled = false
             subVC.popUpEventKind.enabled = false
             subVC.popUpNumsRemained.enabled = false
+        }
+    }
+    //前回データロード(一回もnextを押していない初期状態でのみ可能)
+    func loadPreData() -> Void {
+        if bingoData.loadData() {
+            for index in 0...bingoData.currentIndex-1 {
+                renewPastNums(bingoData.bingoNums[index])
+            }
         }
     }
     

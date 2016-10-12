@@ -18,6 +18,7 @@ class BingoDataEntity: NSObject {
     var eventKind = 0
     var eventName:[String] = ["default", "社長", "石田HB", "加藤B", "久鍋B", "高本B", "寺B", "FJB", "五十嵐顧問"]
     var subVC:SubVC!
+    let userDefaults = NSUserDefaults.standardUserDefaults()
     
     
     /* === メソッド === */
@@ -35,6 +36,28 @@ class BingoDataEntity: NSObject {
             let randIndex = arc4random_uniform(UInt32(maxNum - i))
             bingoNums.append(tmpNums[Int(randIndex)])
             tmpNums.removeAtIndex(Int(randIndex))
+        }
+    }
+    
+    //現状況の保存
+    func saveData() -> Void {
+        userDefaults.setObject(bingoNums, forKey: "NUMS")
+        userDefaults.setInteger(currentIndex, forKey: "INDEX")
+        userDefaults.synchronize()
+    }
+    
+    //前回データの読み込み
+    func loadData() -> Bool {
+        if let nums = userDefaults.objectForKey("NUMS") as? [Int] {
+            if let index:Int = userDefaults.integerForKey("INDEX") {
+                bingoNums = nums
+                currentIndex = index
+                return true
+            } else {
+                return false
+            }
+        } else {
+            return false
         }
     }
     
