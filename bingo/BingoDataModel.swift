@@ -15,6 +15,9 @@ class BingoDataModel: NSObject {
     //数字履歴の各行、各列の座標
     static let placeX:[Int] = [14, 145, 277, 408, 539, 671, 802, 933, 1065, 1196, 1327, 1459, 1590, 1721]
     static let placeY:[Int] = [14, 116, 217, 319, 421, 522, 624, 725, 827]
+    //イベント用写真ファイルリスト
+    static let eventName:[String] = ["default", "社長", "石田HB", "加藤B", "久鍋B", "高本B", "寺B", "FJB", "五十嵐顧問", "新納", "柴崎", "田中", "亀井"]
+    static let onePhoteEventName:[String] = ["FJB", "五十嵐顧問", "新納", "柴崎", "田中", "亀井"]   //リストのうち写真が一枚の人たち
     
     
     /* === クラスメソッド === */

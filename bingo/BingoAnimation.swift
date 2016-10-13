@@ -53,18 +53,18 @@ class BingoAnimation: NSObject {
             }
         } else {    //イベント処理
             //画像処理
-            if mainVC.bingoData.eventName[mainVC.bingoData.eventKind].containsString("FJB") || mainVC.bingoData.eventName[mainVC.bingoData.eventKind].containsString("五十嵐顧問") {
+            if mainVC.bingoData.isEventOnePhoto() {
                 //写真が一枚しかない人用処理
                 if stopCount < 4 {
                     let shuffleNumber = Int(arc4random_uniform(UInt32(mainVC.bingoData.maxNum))) + 1
                     mainVC.imageEvent.image = NSImage(named: shuffleNumber.description + ".png")
                     //displayCurrentNum(shuffleNumber) //窓透明化のためCurrentNumViewはいじれない
                 } else {
-                    mainVC.imageEvent.image = NSImage(named: mainVC.bingoData.eventName[mainVC.bingoData.eventKind] + ".jpg")
+                    mainVC.imageEvent.image = NSImage(named: BingoDataModel.eventName[mainVC.bingoData.eventKind] + ".jpg")
                 }
             } else {
                 //写真が4枚ある人用処理
-                mainVC.imageEvent.image = NSImage(named: mainVC.bingoData.eventName[mainVC.bingoData.eventKind] + stopCount.description + ".jpg")
+                mainVC.imageEvent.image = NSImage(named: BingoDataModel.eventName[mainVC.bingoData.eventKind] + stopCount.description + ".jpg")
             }
             //音
             if stopCount < 4 {

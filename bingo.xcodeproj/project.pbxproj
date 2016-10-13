@@ -132,6 +132,10 @@
 		23E0DC481DAE091F007D630B /* BingoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0DC471DAE091F007D630B /* BingoAnimation.swift */; };
 		23E0DC4A1DAE0D65007D630B /* AnimationSubFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0DC491DAE0D65007D630B /* AnimationSubFunc.swift */; };
 		23E0DC4C1DAE0ED8007D630B /* event.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC4B1DAE0ED8007D630B /* event.mp3 */; };
+		23E0DC511DAFFB7B007D630B /* 亀井.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC4D1DAFFB7B007D630B /* 亀井.jpg */; };
+		23E0DC521DAFFB7B007D630B /* 柴崎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC4E1DAFFB7B007D630B /* 柴崎.jpg */; };
+		23E0DC531DAFFB7B007D630B /* 新納.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC4F1DAFFB7B007D630B /* 新納.jpg */; };
+		23E0DC541DAFFB7B007D630B /* 田中.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23E0DC501DAFFB7B007D630B /* 田中.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -283,6 +287,10 @@
 		23E0DC471DAE091F007D630B /* BingoAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoAnimation.swift; sourceTree = "<group>"; };
 		23E0DC491DAE0D65007D630B /* AnimationSubFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationSubFunc.swift; sourceTree = "<group>"; };
 		23E0DC4B1DAE0ED8007D630B /* event.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = event.mp3; path = sound/event.mp3; sourceTree = SOURCE_ROOT; };
+		23E0DC4D1DAFFB7B007D630B /* 亀井.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "亀井.jpg"; path = "image/event/亀井.jpg"; sourceTree = SOURCE_ROOT; };
+		23E0DC4E1DAFFB7B007D630B /* 柴崎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "柴崎.jpg"; path = "image/event/柴崎.jpg"; sourceTree = SOURCE_ROOT; };
+		23E0DC4F1DAFFB7B007D630B /* 新納.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "新納.jpg"; path = "image/event/新納.jpg"; sourceTree = SOURCE_ROOT; };
+		23E0DC501DAFFB7B007D630B /* 田中.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "田中.jpg"; path = "image/event/田中.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +408,10 @@
 		2372DE391DABF0A700EAB0E1 /* event */ = {
 			isa = PBXGroup;
 			children = (
+				23E0DC4D1DAFFB7B007D630B /* 亀井.jpg */,
+				23E0DC4E1DAFFB7B007D630B /* 柴崎.jpg */,
+				23E0DC4F1DAFFB7B007D630B /* 新納.jpg */,
+				23E0DC501DAFFB7B007D630B /* 田中.jpg */,
 				23E0DC3A1DAD2C37007D630B /* 五十嵐顧問.jpg */,
 				23E0DC381DAD25CB007D630B /* FJB.jpg */,
 				2372DE6C1DAD224700EAB0E1 /* 石田HB1.jpg */,
@@ -620,6 +632,7 @@
 				2372DE301DA9317D00EAB0E1 /* 69.png in Resources */,
 				2372DDFD1DA9317D00EAB0E1 /* 18.png in Resources */,
 				23E0DC4C1DAE0ED8007D630B /* event.mp3 in Resources */,
+				23E0DC541DAFFB7B007D630B /* 田中.jpg in Resources */,
 				2372DE5D1DABF0C400EAB0E1 /* 高本B4.jpg in Resources */,
 				2372DDF71DA9317D00EAB0E1 /* 12.png in Resources */,
 				23E0DC411DAD462E007D630B /* shuffle.mp3 in Resources */,
@@ -629,6 +642,7 @@
 				2372DE0E1DA9317D00EAB0E1 /* 35.png in Resources */,
 				2372DE381DAA134F00EAB0E1 /* BINGO.png in Resources */,
 				2372DE1C1DA9317D00EAB0E1 /* 49.png in Resources */,
+				23E0DC531DAFFB7B007D630B /* 新納.jpg in Resources */,
 				2372DDF11DA9317D00EAB0E1 /* 6.png in Resources */,
 				2372DE211DA9317D00EAB0E1 /* 54.png in Resources */,
 				2372DDEF1DA9317D00EAB0E1 /* 4.png in Resources */,
@@ -659,9 +673,11 @@
 				2372DE141DA9317D00EAB0E1 /* 41.png in Resources */,
 				2372DE291DA9317D00EAB0E1 /* 62.png in Resources */,
 				2372DE361DA9317D00EAB0E1 /* 75.png in Resources */,
+				23E0DC521DAFFB7B007D630B /* 柴崎.jpg in Resources */,
 				2372DE261DA9317D00EAB0E1 /* 59.png in Resources */,
 				2372DE2E1DA9317D00EAB0E1 /* 67.png in Resources */,
 				2372DDEE1DA9317D00EAB0E1 /* 3.png in Resources */,
+				23E0DC511DAFFB7B007D630B /* 亀井.jpg in Resources */,
 				2372DE101DA9317D00EAB0E1 /* 37.png in Resources */,
 				2372DE721DAD224700EAB0E1 /* 石田HB3.jpg in Resources */,
 				23E0DC3B1DAD2C37007D630B /* 五十嵐顧問.jpg in Resources */,

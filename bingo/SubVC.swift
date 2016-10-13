@@ -29,7 +29,8 @@ class SubVC: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
         popUpEventKind.removeAllItems()
-        popUpEventKind.addItemsWithTitles(["default", "社長", "石田HB", "加藤", "久鍋", "高本", "寺B", "石田FJB", "五十嵐顧問"])
+        //popUpEventKind.addItemsWithTitles(["default", "社長", "石田HB", "加藤", "久鍋", "高本", "寺B", "石田FJB", "五十嵐顧問", "新納", "柴崎", "田中", "亀井"])
+        popUpEventKind.addItemsWithTitles(BingoDataModel.eventName)
         popUpNumsRemained.removeAllItems()
         for num in 1...75 {
             popUpNumsRemained.addItemWithTitle(num.description)

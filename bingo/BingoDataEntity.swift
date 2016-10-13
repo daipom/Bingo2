@@ -16,7 +16,6 @@ class BingoDataEntity: NSObject {
     var bingoNums:[Int] = []    //表示順に数字が入った配列
     var currentIndex = 0        //次表示するインデックス
     var eventKind = 0
-    var eventName:[String] = ["default", "社長", "石田HB", "加藤B", "久鍋B", "高本B", "寺B", "FJB", "五十嵐顧問"]
     var subVC:SubVC!
     let userDefaults = NSUserDefaults.standardUserDefaults()
     
@@ -37,6 +36,18 @@ class BingoDataEntity: NSObject {
             bingoNums.append(tmpNums[Int(randIndex)])
             tmpNums.removeAtIndex(Int(randIndex))
         }
+    }
+    
+    //イベント写真が1枚かどうか
+    func isEventOnePhoto() -> Bool {
+        var result = false
+        for name in BingoDataModel.onePhoteEventName {
+            if BingoDataModel.eventName[eventKind].containsString(name) {
+                result = true
+                break
+            }
+        }
+        return result
     }
     
     //現状況の保存
